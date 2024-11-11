@@ -1,5 +1,4 @@
 body {
-    background-color:darkgrey;  
     background:rgb(232, 146, 96);
     margin: 0; 
     padding: 0;
@@ -62,9 +61,9 @@ background-color: #4CAF50;
 
 /* Работа с flex */
 .container-3 {
-background-color: #8713c1;
+background-color: #72c2a6;
 padding: 20px;
-border: 2px solid #05c115;
+border: 2px solid #000000;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
@@ -73,7 +72,7 @@ justify-content: space-between;
 .block-3 {
 width: 200px;
 height: 200px;
-background-color: #4682b4;
+background-color: #4CAF50;
 margin: 10px 0;
 }
 
@@ -98,22 +97,22 @@ background-color: transparent;
 /* Красный квадрат */
 .red {
 border-color: red;
-top: 50px;
-left: 50px;
+top: 40px;
+left: 40px;
 }
 
 /* Синий квадрат */
 .blue {
 border-color: blue;
-top: 100px;
-left: 100px;
+top: 130px;
+left: 130px;
 }
 
 /* Зеленый квадрат */
 .green {
 border-color: green;
-top: 200px;
-left: 200px;
+top: 220px;
+left: 220px;
 }
 
 /* Котик в правом нижнем углу */

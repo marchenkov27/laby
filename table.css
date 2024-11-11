@@ -1,0 +1,62 @@
+body {
+    background:rgb(183, 222, 234);
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+
+.header {
+background-color: #4CAF50;
+padding: 10px;
+}
+
+.header nav {
+display: flex;
+justify-content: flex-end;
+}
+
+.header nav a {
+color: white;
+text-decoration: none;
+margin-left: 20px;
+}
+
+.header nav a:hover {
+text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+caption {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+th, td {
+    border: 1px solid #080000;
+    padding: 15px;
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #ddafef;
+}
+
+tr:nth-child(odd) {
+    background-color: #a8baf2;
+}
+
+tr:hover {
+    background-color: #e4eee2;
+}
