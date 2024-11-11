@@ -1,5 +1,5 @@
 body {
-    background:rgb(183, 222, 234);
+    background:rgb(199, 201, 169);
     font-family: Arial, sans-serif;
     margin: 0; 
     padding: 0;
@@ -23,6 +23,12 @@ margin-left: 20px;
 
 .header nav a:hover {
 text-decoration: underline;
+}
+
+.container2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Расстояние между формой и таблицей */
 }
 
 table {
@@ -59,4 +65,48 @@ tr:nth-child(odd) {
 
 tr:hover {
     background-color: #e4eee2;
+}
+
+/* Стили для формы */
+#addRowForm {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для полей ввода */
+#addRowForm label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#addRowForm input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Стили для кнопки */
+#addRowForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#addRowForm button:hover {
+    background-color: #45a049;
 }
