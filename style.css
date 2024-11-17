@@ -14,7 +14,7 @@
 
 .container-for-card {
     display: flex;
-    background-color: rgb(71, 73, 147);
+    background-color: rgb(43, 47, 152);
     padding-top: 15px;
     padding-bottom: 20px;
     margin: 0px;
@@ -32,7 +32,7 @@
 .block {
     display: flex;
     flex-direction: column;
-    background-color: rgb(71, 73, 147);
+    background-color: rgb(102, 106, 213);
     border-radius: 5px;
     width: auto;
     margin: auto;
